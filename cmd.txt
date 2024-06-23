@@ -1,0 +1,60 @@
+
+nest new campanhaanimal
+
+npm install typeorm pg class-validator class-transformer @nestjs/mapped-types @nestjs/typeorm bcrypt @nestjs/jwt @nestjs/passport @nestjs/config uuid passport-jwt
+npm i --save-dev @types/uuid @types/bcrypt @types/passport-jwt
+
+git init
+git add .
+git commit -m "fisrt commit"
+git remote add origin git@github.com:GetHash-Consultoria/campanha.nestjs.backend.git
+git push
+git push -u campanha.nestjs.backend vandreh
+
+
+npm i cors
+npm i --save-dev @types/cors
+
+npm i class-validator class-transformer
+npm i @nestjs/config
+
+
+CURSO REFRESH_TOKEN concluido:
+https://www.youtube.com/watch?v=uAKzFhE3rxU
+https://github.com/vladwulf/nestjs-jwts
+
+
+
+
+
+
+para executar, apos download no Git e deszipar o arquivo:
+
+npm run build
+docker-compose up
+npx typeorm migration:run -d dist/database.providers.js
+
+npm run start:dev
+
+
+
+
+
+
+/* Upload images:
+    https://docs.nestjs.com/techniques/file-upload
+    https://www.youtube.com/watch?v=f-URVd2OKYc
+
+git status
+git flow feature start video-14
+git add -A
+git commit -m "video-14: added POST profileImage and added GET profileImage Endpoint for tutors"
+    //git push
+git push --set-upstream origin feature/video-14
+git flow feature finish */
+
+
+// nest g resource users
+
+
+https://docs.nestjs.com/security/authorization
